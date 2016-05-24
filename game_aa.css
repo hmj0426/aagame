@@ -1,0 +1,66 @@
+canvas {
+	background-color: black;
+	float:auto;
+}
+
+#start {
+	position:absolute;
+	top:290px;
+	left:370px;
+	color:white;
+	display:inline;
+}
+
+#start:hover{
+	color:green;
+}
+
+#result{
+	position:absolute;
+	top:500px;
+	left:100px;
+	font-family:Skia;
+	font-size:50px;
+	display: inline;
+}
+
+.button {
+	background-color: rgba(0,0,0,0);
+	cursor: pointer;
+	border:none;
+	font-size: 30px;
+	font-family:Skia;
+}
+
+.button:hover {
+	color:yellow;
+}
+
+#help {
+	position: absolute;
+	top:37px;
+	left: 45px;
+	display: none;
+	color: white;
+}
+
+#help:hover {
+	color:yellow;
+}
+
+#restart {
+	position:absolute;
+	top:555px;
+	left:680px;
+	display: none;
+	border-bottom: 2px dotted black;
+}
+
+#newLev {
+	position:absolute;
+	top:510px;
+	left:680px;
+	display: none;
+	border-bottom: 2px dotted black;
+}
+
